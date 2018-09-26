@@ -5,9 +5,8 @@ import profilePic from './profile-pic.jpg'
 class Bio extends React.Component {
   render() {
     return (
-      <div>
-        <img src={profilePic} alt={`Kyle Mathews`} />
-        <p>
+      <div className="bio">
+        <p style={{ fontSize: `16px`, lineHeight: `1em` }}>
           an online notebook cataloguing the always expanding web development
           landscape & creative side of code.
         </p>

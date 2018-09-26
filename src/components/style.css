@@ -27,7 +27,10 @@ summary {
 h1,
 h2,
 h3,
-small {
+small,
+h1 > a:visited,
+h2 > a:visited,
+h3 > a:visited {
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   color: #333;
@@ -35,6 +38,93 @@ small {
 
 p {
   font-family: 'Barlow', sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   color: #333;
+  line-height: 2rem;
+  font-size: 20px;
+}
+
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #3f3b3c;
+  display: inline-block;
+  line-height: 1.05;
+  border-bottom: 0.18em solid rgba(255, 225, 0, 0.88);
+  margin-bottom: 0.5em;
+}
+
+a:hover,
+a:active {
+  background-color: rgb(254, 232, 67);
+  background-size: 50% auto;
+  background-size: 10px;
+}
+
+ul {
+  list-style: square
+    url('data:image/gif;base64,R0lGODlhBQAKAIABAAAAAP///yH5BAEAAAEALAAAAAAFAAoAAAIIjI+ZwKwPUQEAOw==');
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+blockquote {
+  color: #65d1e9;
+  background-color: #f5f5f5;
+  padding: 1em;
+  margin: 1em;
+  line-height: 1.5em;
+  font-size: 1.7em;
+  quotes: '“' '”' '‘' '’';
+}
+
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.2em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote p {
+  display: inline;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.bio {
+  width: 400px;
+}
+@media screen and (max-width: 30em) {
+  header {
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  .menu {
+    padding-left: 0;
+  }
+
+  .bio {
+    width: 250px;
+  }
 }
