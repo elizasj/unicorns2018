@@ -26,7 +26,7 @@ class BlogIndex extends React.Component {
           const title = get(node, 'frontmatter.title') || node.fields.slug
           return (
             <div key={node.fields.slug}>
-              <h3>
+              <h3 className="blogpost_title">
                 <Link to={node.fields.slug}>{title}</Link>
               </h3>
               <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
@@ -54,7 +54,7 @@ export const pageQuery = graphql`
     ) {
       edges {
         node {
-          excerpt
+          excerpt(pruneLength: 280)
           fields {
             slug
           }

@@ -1,0 +1,29 @@
+@import './style.css';
+
+.container {
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 0px 1.0875rem 1.45rem;
+  padding-top: 0;
+}
+
+.ufp {
+  font-size: 40px;
+  color: #ff007e;
+  font-weight: 700;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 30em) {
+  .header {
+    flex-direction: column;
+  }
+
+  ul.menu {
+    padding-left: 0px;
+  }
+}

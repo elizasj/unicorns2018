@@ -27,10 +27,8 @@ class WebDev101Index extends React.Component {
           const title = get(node, 'frontmatter.title') || node.fields.slug
           return (
             <div key={node.fields.slug}>
-              <h3>
-                <Link style={{ boxShadow: 'none' }} to={node.fields.slug}>
-                  {title}
-                </Link>
+              <h3 className="blogpost_title">
+                <Link to={node.fields.slug}>{title}</Link>
               </h3>
               <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
             </div>
@@ -57,7 +55,7 @@ export const pageQuery = graphql`
     ) {
       edges {
         node {
-          excerpt
+          excerpt(pruneLength: 280)
           fields {
             slug
           }

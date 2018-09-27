@@ -1,12 +1,14 @@
 import React from 'react'
+import cn from 'classnames/bind'
+import style from './Bio.module.css'
 
-import profilePic from './profile-pic.jpg'
+const cx = cn.bind(style)
 
 class Bio extends React.Component {
   render() {
     return (
-      <div className="bio">
-        <p style={{ fontSize: `16px`, lineHeight: `1em` }}>
+      <div>
+        <p className={cx('bio')}>
           an online notebook cataloguing the always expanding web development
           landscape & creative side of code.
         </p>

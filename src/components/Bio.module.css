@@ -1,0 +1,16 @@
+@import './style.css';
+
+.bio {
+  font-size: 18px;
+  padding: 0;
+  margin: 0px;
+  width: 500px;
+  line-height: 1.5em;
+}
+
+@media screen and (max-width: 30em) {
+  .bio {
+    width: 300px;
+    padding: 10px 0 10px 0;
+  }
+}

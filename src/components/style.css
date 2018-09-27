@@ -46,20 +46,10 @@ p {
 
 a,
 a:link,
-a:visited {
-  text-decoration: none;
-  color: #3f3b3c;
-  display: inline-block;
-  line-height: 1.05;
-  border-bottom: 0.18em solid rgba(255, 225, 0, 0.88);
-  margin-bottom: 0.5em;
-}
-
+a:visited,
 a:hover,
 a:active {
-  background-color: rgb(254, 232, 67);
-  background-size: 50% auto;
-  background-size: 10px;
+  text-decoration: none;
 }
 
 ul {
@@ -111,20 +101,5 @@ header {
   justify-content: space-between;
 }
 
-.bio {
-  width: 400px;
-}
 @media screen and (max-width: 30em) {
-  header {
-    flex-direction: column;
-    justify-content: start;
-  }
-
-  .menu {
-    padding-left: 0;
-  }
-
-  .bio {
-    width: 250px;
-  }
 }
