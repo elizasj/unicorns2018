@@ -1,0 +1,26 @@
+@import '../components/style.css';
+
+.blogpost {
+  margin-top: 20px;
+}
+
+.blogpost_title {
+  margin-top: 0px;
+  color: #233dff;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+ul.backforth {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+@media screen and (max-width: 30em) {
+  ul.backforth {
+    margin: 0px;
+    padding: 20px;
+    justify-content: space-between;
+  }
+}

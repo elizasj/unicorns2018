@@ -1,5 +1,5 @@
 ---
-date: '017-01-06T00:00:00Z'
+date: '2017-01-06T00:00:00Z'
 tags: ['goals']
 title: '2017 - Looking Forward'
 category: 'creative dev'

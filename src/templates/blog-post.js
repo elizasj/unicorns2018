@@ -2,9 +2,12 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { Link, graphql } from 'gatsby'
 import get from 'lodash/get'
-
-import Bio from '../components/Bio'
 import Layout from '../components/layout'
+
+import cn from 'classnames/bind'
+import style from './blog-post.module.css'
+
+const cx = cn.bind(style)
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -20,13 +23,15 @@ class BlogPostTemplate extends React.Component {
           meta={[{ name: 'description', content: siteDescription }]}
           title={`${post.frontmatter.title} | ${siteTitle}`}
         />
-        <small>{post.frontmatter.date}</small>
-        <h1 style={{ marginTop: `0` }}>{post.frontmatter.title}</h1>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
 
-        <hr />
+        <div className={cx('blogpost')}>
+          <small>{post.frontmatter.date}</small>
+          <h1 className={cx('blogpost_title')}>{post.frontmatter.title}</h1>
 
-        <ul>
+          <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        </div>
+
+        <ul className={cx('backforth')}>
           {previous && (
             <li>
               <Link to={previous.fields.slug} rel="prev">

@@ -1,0 +1,16 @@
+@import '../components/style.css';
+
+.blogpost_title {
+  margin-bottom: 0px;
+}
+
+.blogpost_title_anchor {
+  font-size: 27px;
+  font-size: 26px;
+  font-weight: 600;
+  color: #233dff;
+}
+
+.blogpost_content {
+  margin-top: 0px;
+}

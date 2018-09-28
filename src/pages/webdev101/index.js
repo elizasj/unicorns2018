@@ -2,9 +2,12 @@ import React from 'react'
 import { Link, graphql } from 'gatsby'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
+import cn from 'classnames/bind'
+import style from '../landing.module.css'
 
-import Bio from '../../components/Bio'
 import Layout from '../../components/layout'
+
+const cx = cn.bind(style)
 
 class WebDev101Index extends React.Component {
   render() {
@@ -27,10 +30,18 @@ class WebDev101Index extends React.Component {
           const title = get(node, 'frontmatter.title') || node.fields.slug
           return (
             <div key={node.fields.slug}>
-              <h3 className="blogpost_title">
-                <Link to={node.fields.slug}>{title}</Link>
+              <h3 className={cx('blogpost_title')}>
+                <Link
+                  className={cx('blogpost_title_anchor')}
+                  to={node.fields.slug}
+                >
+                  {title}
+                </Link>
               </h3>
-              <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
+              <p
+                className={cx('blogpost_content')}
+                dangerouslySetInnerHTML={{ __html: node.excerpt }}
+              />
             </div>
           )
         })}

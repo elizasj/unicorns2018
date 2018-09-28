@@ -127,8 +127,6 @@ So now that you know how to get the data from your audio file, what to do with i
 
 Well... that's up to you! One great place to start is by mapping the frequency range you grabbed onto a basic shape, setting it to something like width or height. Grab another range and add another shape. You can keep adding shapes and frequencies, or adding maps of other things like color or position to the frequencies you already have. From here the possibilities are pretty endless.
 
-For an example of multiple elements in action, check out one of my first audio-powered visualisation patterns.
-
-{{< p5_sketch fftpatterns >}}
+For an example of multiple elements in action, check out one of my <a href="https://elizasj.github.io/fftpatterns/" target="_blank">first audio-powered visualisation patterns</a>.
 
 Next up, <a href="https://www.unicornsfartpixels.com/posts/2018-01-01fftthree/" target="_clear">part two</a> of audio viz basics in three.js.

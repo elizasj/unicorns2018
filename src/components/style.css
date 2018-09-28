@@ -27,13 +27,18 @@ summary {
 h1,
 h2,
 h3,
-small,
-h1 > a:visited,
-h2 > a:visited,
-h3 > a:visited {
+small {
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
-  color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #ff007e;
 }
 
 p {
@@ -50,6 +55,11 @@ a:visited,
 a:hover,
 a:active {
   text-decoration: none;
+  color: #233dff;
+}
+
+strong {
+  font-weight: 600;
 }
 
 ul {
@@ -99,6 +109,11 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+hr {
+  border: 0;
+  border-bottom: 3px dashed #ffe900;
 }
 
 @media screen and (max-width: 30em) {
