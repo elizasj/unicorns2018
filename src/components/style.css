@@ -1,6 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP|Noto+Serif:400,700|Open+Sans:300,400,600,700,800');
 @import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:300,400,500,600,700,800|Barlow:100,300,400,500,600,700,900');
 
+root {
+  /* base font size */
+  /* 62.5% of 16px is 10px -> 1.6rem = 16px (default browser font size) */
+  font-size: 62.5%;
+
+  /* all ROOT vars are considered static */
+  /* colors */
+  --PRIMARY: #ff008c;
+  --SECONDARY: #233dff;
+
+  /* font size */
+  --H1: 5.4rem; /* 10px -> 5.4rem = 54px */
+  --H2: 3.6rem; /* 10px -> 3.6rem = 36px */
+  --H3: 2.4rem; /* 10px -> 2.4rem = 24px */
+  --H4: 1.6rem; /* 10px -> 1.6rem = 16px */
+  --paragraph: 1.8rem; /* 10px -> 1.8rem = 18px */
+}
+
 html {
   font-family: 'Open Sans', sans-serif;
   -ms-text-size-adjust: 100%;
@@ -117,4 +135,7 @@ hr {
 }
 
 @media screen and (max-width: 30em) {
+  iframe {
+    width: 100%;
+  }
 }

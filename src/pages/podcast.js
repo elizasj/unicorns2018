@@ -2,8 +2,13 @@ import React from 'react'
 import { Link, graphql } from 'gatsby'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
+import cn from 'classnames/bind'
+
+import style from './podcast.module.css'
 
 import Layout from '../components/layout'
+
+const cx = cn.bind(style)
 
 class Podcast extends React.Component {
   render() {
@@ -63,9 +68,8 @@ class Podcast extends React.Component {
           </ul>
         </p>
         <iframe
+          className={cx('podcast')}
           src="https://anchor.fm/unicorns/embed"
-          height="202px"
-          width="900px"
           frameborder="0"
           scrolling="no"
         />
@@ -106,9 +110,8 @@ class Podcast extends React.Component {
           openFrameworks: openframeworks.cc/{' '}
         </p>
         <iframe
+          className={cx('podcast')}
           src="https://anchor.fm/unicorns/embed/episodes/Unicorns-Fart-Pixels-ep03-e1qrtc"
-          height="202px"
-          width="900px"
           frameborder="0"
           scrolling="no"
         />
@@ -142,6 +145,7 @@ class Podcast extends React.Component {
           </ul>
         </p>
         <iframe
+          className={cx('podcast')}
           src="https://anchor.fm/unicorns/embed/episodes/Unicorns-Fart-Pixels-ep02-e1qrtd"
           height="202px"
           width="900px"
@@ -168,6 +172,7 @@ class Podcast extends React.Component {
           and the Web Audio API.
         </p>
         <iframe
+          className={cx('podcast')}
           src="https://anchor.fm/unicorns/embed/episodes/Unicorns-Fart-Pixels-ep01-e1qrte"
           height="202px"
           width="900px"
@@ -199,6 +204,7 @@ class Podcast extends React.Component {
           )
         </p>
         <iframe
+          className={cx('podcast')}
           src="https://anchor.fm/unicorns/embed/episodes/Unicorns-Fart-Pixels-ep00-e1qrtf"
           height="202px"
           width="900px"
