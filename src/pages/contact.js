@@ -45,6 +45,16 @@ class Contact extends React.Component {
           , send along an{' '}
           <a href="mailto:unicornsfartpixelsblog@gmail.com">email</a>.
         </p>
+
+        <form
+          name="contact"
+          method="post"
+          data-netlify="true"
+          data-netify-honeypot="bot-field"
+        >
+          <input name="name" type="text" placeholder="Your Name" />
+          <button>send</button>
+        </form>
       </Layout>
     )
   }
