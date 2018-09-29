@@ -34,7 +34,7 @@ class Template extends React.Component {
           </ul>
         </header>
 
-        {children}
+        <div className={cx('main')}>{children}</div>
 
         <footer>
           <p>© 2018 Unicorns Fart Pixels</p>
