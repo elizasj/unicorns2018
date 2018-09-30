@@ -121,7 +121,7 @@ void main() {
 
 <img src="/images/1dsincos.gif">
 
-Such beautiful, fluid movement 🤤
+Such beautiful, fluid movement 🤤 (gif quality notwithsanding...)
 
 Once I understood all of the above, so many little doors unlocked in my mind. I've played around with a few ideas, one of which <a href="https://www.instagram.com/p/BnCaXa8BsJK/?taken-by=iamelizasj" target="_blank">I'm particularily satsifed with</a>. Now, let's not kid ourselves guys, I'm still experimenting much of the time. But little by little, the pieces that I'm experimenting with are starting to make so much more sense.
 
