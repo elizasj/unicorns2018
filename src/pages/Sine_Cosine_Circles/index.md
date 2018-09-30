@@ -1,5 +1,5 @@
 ---
-date: '2018-28-09T00:00:00Z'
+date: '2018-09-30T00:00:00Z'
 tags: ['shaders', 'math']
 title: 'Sine/Cosine == Circles?'
 category: 'creative dev'
