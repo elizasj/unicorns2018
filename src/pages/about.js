@@ -29,9 +29,9 @@ class About extends React.Component {
           creative side, and the always expanding web development landscape.
           Graphics & audio, generative art, data-visualisation - these are the
           things that I spend most of my time thinking about in large part
-          thanks to the many artists and thinkers who I’ve been lucky enough
-          enough to encounter both IRL & URL. Some notes & quotes from some of
-          the afforementioned, that have inspired my curiosity:
+          thanks to the many artists and thinkers who I’ve been lucky enough to
+          encounter both IRL & URL. Some notes & quotes from some of the
+          afforementioned, that have inspired my curiosity:
         </p>
 
         <blockquote>

@@ -31,6 +31,8 @@ class BlogPostTemplate extends React.Component {
           <div dangerouslySetInnerHTML={{ __html: post.html }} />
         </div>
 
+        <hr />
+
         <ul className={cx('backforth')}>
           {previous && (
             <li>
