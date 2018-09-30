@@ -38,7 +38,7 @@ class Contact extends React.Component {
             </p>
             <p>
               Questions, comments & [constructive] critiques are always welcome,
-              (trolls not so much.) So feel free to ping me on any of the usual
+              (trolls not so much.) Send me a ping on any of the usual
               platforms:
             </p>
             <ul>
