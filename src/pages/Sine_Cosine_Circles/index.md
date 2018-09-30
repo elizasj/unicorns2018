@@ -123,6 +123,6 @@ void main() {
 
 Such beautiful, fluid movement 🤤 (gif quality notwithsanding...)
 
-Once I understood all of the above, so many little doors unlocked in my mind. I've played around with a few ideas, one of which <a href="https://www.instagram.com/p/BnCaXa8BsJK/?taken-by=iamelizasj" target="_blank">I'm particularily satsifed with</a>. Now, let's not kid ourselves guys, I'm still experimenting much of the time. But little by little, the pieces that I'm experimenting with are starting to make so much more sense.
+Once I understood all of the above, so many little doors unlocked in my mind. I've played around with a few ideas, one of which <a href="https://www.instagram.com/p/BnCaXa8BsJK/?taken-by=iamelizasj" target="_blank">I'm particularily satsifed with</a>. Let's not kid ourselves though, guys. I'm still experimenting much of the time. But little by little, the pieces that I'm experimenting with are starting to make so much more sense.
 
-Something related, and particularily useful for shapes is inverse trigonometry (**arctan**, **arccos** and **arcsin**...) because it alows us to restrict domain and range. I'm also curious about picking appart the usefulness of GLSL's abs() and fract() functions, so look out for these topics in the near future. 👩🏼‍💻⚗️✨
+Something related, and particularily useful for shapes is inverse trigonometry (**arctan**, **arccos** and **arcsin**...) because it alows us to restrict domain and range. I'm also curious about picking appart the usefulness of GLSL's **abs()** and **fract()** functions, so look out for these topics in the near future. 👩🏼‍💻⚗️✨
