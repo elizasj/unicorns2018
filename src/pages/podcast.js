@@ -34,6 +34,78 @@ class Podcast extends React.Component {
           <br />
         </p>
 
+        <h3>Ep.05 | All About Math</h3>
+        <p>
+          In this episode I'll be discussing math and it's role in creative
+          coding, how I got over my own math traumas, the connection between
+          pythagoras and music and why everyone is a math person.
+        </p>
+        <p>Show notes:</p>
+        <ul>
+          <li>
+            <a href="www.kadenze.com/" target="_blank">
+              Kadenze
+            </a>
+          </li>
+          <li>
+            <a href="www.goodpointpodcast.com/" target="_blank">
+              Good Point Podcast
+            </a>
+          </li>
+          <li>
+            <a href="www.newrafael.com/" target="_blank">
+              Rafael Ronzendaal
+            </a>
+          </li>
+          <li>
+            <a href="jeremybailey.net/" target="_blank">
+              Jeremy Bailey
+            </a>
+          </li>
+          <li>
+            <a href="en.wikipedia.org/wiki/Bob_Ross" target="_blank">
+              Bob Ross
+            </a>
+          </li>
+          <li>
+            <a href="shiffman.net/" target="_blank">
+              Dan Shiffman
+            </a>
+          </li>
+          <li>
+            <a href=" www.youtube.com/user/shiffman" target="_blank">
+              Coding Train
+            </a>
+          </li>
+          <li>
+            <a href="patriciogonzalezvivo.com/" target="_blank">
+              Patricio Gonzalez Vivo
+            </a>
+          </li>
+          <li>
+            <a href="thebookofshaders.com/" target="_blank">
+              The Book of Shaders
+            </a>
+          </li>
+          <li>
+            <a href="bit.ly/2OZvbKb" target="_blank">
+              A Beautiful Question by Frank Wilczek
+            </a>
+          </li>
+          <li>
+            <a href="https://bit.ly/2OVpCw5" target="_blank">
+              Reflections on Mindstorms by Seymour Papert
+            </a>
+          </li>
+        </ul>
+
+        <iframe
+          className={cx('podcast')}
+          src="https://anchor.fm/unicorns/embed/episodes/Unicorns-Fart-Pixels-ep05-e2al7e"
+          frameborder="0"
+          scrolling="no"
+        />
+
         <h3>Ep.04 | Creative Inspiration: Sol Lewitt</h3>
         <p>
           This episode is part of a mini-series that I'll be adding to from time
@@ -73,7 +145,7 @@ class Podcast extends React.Component {
         </ul>
         <iframe
           className={cx('podcast')}
-          src="https://anchor.fm/unicorns/embed"
+          src="https://anchor.fm/unicorns/embed/episodes/Unicorns-Fart-Pixels-ep04-e1s738/a-a4h1vb"
           frameBorder="0"
           scrolling="no"
         />
