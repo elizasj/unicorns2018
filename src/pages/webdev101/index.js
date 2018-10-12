@@ -26,7 +26,7 @@ class WebDev101Index extends React.Component {
           title={siteTitle}
         />
 
-        <p>
+        <p className={cx('blurb')}>
           Welcome to <strong>Web Dev 101</strong>. This is where I stash my
           notes on the more traditional aspects of web development, tools and
           technologies that don't deal directly with digital graphics.
@@ -35,19 +35,21 @@ class WebDev101Index extends React.Component {
         {posts.map(({ node }) => {
           const title = get(node, 'frontmatter.title') || node.fields.slug
           return (
-            <div key={node.fields.slug}>
-              <h3 className={cx('blogpost_title')}>
-                <Link
-                  className={cx('blogpost_title_anchor')}
-                  to={node.fields.slug}
-                >
-                  {title}
-                </Link>
-              </h3>
-              <p
-                className={cx('blogpost_content')}
-                dangerouslySetInnerHTML={{ __html: node.excerpt }}
-              />
+            <div className={cx('blogpost')}>
+              <div key={node.fields.slug}>
+                <h3 className={cx('blogpost_title')}>
+                  <Link
+                    className={cx('blogpost_title_anchor')}
+                    to={node.fields.slug}
+                  >
+                    {title}
+                  </Link>
+                </h3>
+                <p
+                  className={cx('blogpost_content')}
+                  dangerouslySetInnerHTML={{ __html: node.excerpt }}
+                />
+              </div>
             </div>
           )
         })}

@@ -29,19 +29,21 @@ class BlogIndex extends React.Component {
         {posts.map(({ node }) => {
           const title = get(node, 'frontmatter.title') || node.fields.slug
           return (
-            <div key={node.fields.slug}>
-              <h3 className={cx('blogpost_title')}>
-                <Link
-                  className={cx('blogpost_title_anchor')}
-                  to={node.fields.slug}
-                >
-                  {title}
-                </Link>
-              </h3>
-              <p
-                className={cx('blogpost_content')}
-                dangerouslySetInnerHTML={{ __html: node.excerpt }}
-              />
+            <div className={cx('blogpost')}>
+              <div key={node.fields.slug}>
+                <h3 className={cx('blogpost_title')}>
+                  <Link
+                    className={cx('blogpost_title_anchor')}
+                    to={node.fields.slug}
+                  >
+                    {title}
+                  </Link>
+                </h3>
+                <p
+                  className={cx('blogpost_content')}
+                  dangerouslySetInnerHTML={{ __html: node.excerpt }}
+                />
+              </div>
             </div>
           )
         })}

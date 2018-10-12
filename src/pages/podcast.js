@@ -24,7 +24,7 @@ class Podcast extends React.Component {
           meta={[{ name: 'description', content: siteDescription }]}
           title={siteTitle}
         />
-        <p>
+        <p className={cx('blurb')}>
           I find tutorials and technical notes easier to read through than to
           listen to. In contrast, I prefer hearing about why people are drawn to
           the work that they do. If you do too, then the{' '}
@@ -43,52 +43,52 @@ class Podcast extends React.Component {
         <p>Show notes:</p>
         <ul>
           <li>
-            <a href="www.kadenze.com/" target="_blank">
+            <a href="http://www.kadenze.com/" target="_blank">
               Kadenze
             </a>
           </li>
           <li>
-            <a href="www.goodpointpodcast.com/" target="_blank">
+            <a href="http://www.goodpointpodcast.com/" target="_blank">
               Good Point Podcast
             </a>
           </li>
           <li>
-            <a href="www.newrafael.com/" target="_blank">
+            <a href="http://www.newrafael.com/" target="_blank">
               Rafael Ronzendaal
             </a>
           </li>
           <li>
-            <a href="jeremybailey.net/" target="_blank">
+            <a href="http://jeremybailey.net/" target="_blank">
               Jeremy Bailey
             </a>
           </li>
           <li>
-            <a href="en.wikipedia.org/wiki/Bob_Ross" target="_blank">
+            <a href="http://en.wikipedia.org/wiki/Bob_Ross" target="_blank">
               Bob Ross
             </a>
           </li>
           <li>
-            <a href="shiffman.net/" target="_blank">
+            <a href="http://shiffman.net/" target="_blank">
               Dan Shiffman
             </a>
           </li>
           <li>
-            <a href=" www.youtube.com/user/shiffman" target="_blank">
+            <a href="http://www.youtube.com/user/shiffman" target="_blank">
               Coding Train
             </a>
           </li>
           <li>
-            <a href="patriciogonzalezvivo.com/" target="_blank">
+            <a href="http://patriciogonzalezvivo.com/" target="_blank">
               Patricio Gonzalez Vivo
             </a>
           </li>
           <li>
-            <a href="thebookofshaders.com/" target="_blank">
+            <a href="http://thebookofshaders.com/" target="_blank">
               The Book of Shaders
             </a>
           </li>
           <li>
-            <a href="bit.ly/2OZvbKb" target="_blank">
+            <a href="http://bit.ly/2OZvbKb" target="_blank">
               A Beautiful Question by Frank Wilczek
             </a>
           </li>
@@ -105,6 +105,7 @@ class Podcast extends React.Component {
           frameborder="0"
           scrolling="no"
         />
+        <hr className={cx('seperator')} />
 
         <h3>Ep.04 | Creative Inspiration: Sol Lewitt</h3>
         <p>
@@ -121,24 +122,30 @@ class Podcast extends React.Component {
           </li>
           <li>
             <a
-              href="www.multimedialab.be/doc/citations/sol_lewitt_sentences.pdf"
+              href="http://www.multimedialab.be/doc/citations/sol_lewitt_sentences.pdf"
               target="_blank"
             >
               Sentences on Conceptual Art - Letters
             </a>
           </li>
           <li>
-            <a href="www.youtube.com/watch?v=VnSMIgsPj5M" target="_blank">
+            <a
+              href="http://www.youtube.com/watch?v=VnSMIgsPj5M"
+              target="_blank"
+            >
               Live: Sol LeWitt to Eva Hesse - Read by Benedict Cumberbatch
             </a>
           </li>
           <li>
-            <a href="www.youtube.com/watch?v=dTGvbhqWoFI" target="_blank">
+            <a
+              href="http://www.youtube.com/watch?v=dTGvbhqWoFI"
+              target="_blank"
+            >
               Letters Live: Sol LeWitt to Eva Hesse - Read by Andrew Scott
             </a>
           </li>
           <li>
-            <a href="vimeo.com/139094998t" target="_blank">
+            <a href="http://vimeo.com/139094998t" target="_blank">
               Everything is a remix
             </a>
           </li>
@@ -150,7 +157,7 @@ class Podcast extends React.Component {
           scrolling="no"
         />
 
-        <hr />
+        <hr className={cx('seperator')} />
         <h3>Ep.03 | Code, Data & the Visual Arts</h3>
         <p>
           This week I talk about my master thesis - about how using procedural
@@ -181,7 +188,7 @@ class Podcast extends React.Component {
             </a>
           </li>
           <li>
-            <a href="processing.org/" target="_blank">
+            <a href="http://processing.org/" target="_blank">
               Processing
             </a>
           </li>
@@ -202,7 +209,7 @@ class Podcast extends React.Component {
           frameBorder="0"
           scrolling="no"
         />
-        <hr />
+        <hr className={cx('seperator')} />
 
         <h3>Ep.02 | Artist Residencies</h3>
         <p>
@@ -219,7 +226,7 @@ class Podcast extends React.Component {
             </a>
           </li>
           <li>
-            <a href="bit.ly/2qnb9yh" target="_blank">
+            <a href="http://bit.ly/2qnb9yh" target="_blank">
               Robert Allison
             </a>
           </li>
@@ -240,15 +247,15 @@ class Podcast extends React.Component {
         <p>
           For an in depth look at some of the technical aspects touched on in
           the podcast, checkout{' '}
-          <a href="bit.ly/fft-pt1" target="_blank">
+          <a href="http://bit.ly/fft-pt1" target="_blank">
             Visualizing Sound (pt1): The FFT
           </a>{' '}
           and
-          <a href="bit.ly/fft-pt2" target="_blank">
+          <a href="http://bit.ly/fft-pt2" target="_blank">
             Visualizing Sound (pt2): Three.js
           </a>
         </p>
-        <hr />
+        <hr className={cx('seperator')} />
 
         <h3>Ep.01 | Why I'm interested in visualizing sound</h3>
         <p>
@@ -267,15 +274,15 @@ class Podcast extends React.Component {
         <p>
           For an in depth look at some of the technical aspects touched on in
           the podcast, checkout{' '}
-          <a href="bit.ly/fft-pt1" target="_blank">
+          <a href="http://bit.ly/fft-pt1" target="_blank">
             Visualizing Sound (pt1): The FFT
           </a>{' '}
           and
-          <a href="bit.ly/fft-pt2" target="_blank">
+          <a href="http://bit.ly/fft-pt2" target="_blank">
             Visualizing Sound (pt2): Three.js
           </a>
         </p>
-        <hr />
+        <hr className={cx('seperator')} />
 
         <h3>Ep.00 | Why I'm making a podcast</h3>
 
@@ -296,7 +303,7 @@ class Podcast extends React.Component {
           frameBorder="0"
           scrolling="no"
         />
-        <hr />
+        <hr className={cx('seperator')} />
       </Layout>
     )
   }

@@ -1,5 +1,10 @@
 @import '../components/style.css';
 
+.blogpost,
+.blurb {
+  padding-bottom: 35px;
+}
+
 .blogpost_title {
   margin-bottom: 0px;
 }
