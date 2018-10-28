@@ -19,7 +19,7 @@
 
 .header {
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
   padding-bottom: 70px;
 }
 
@@ -29,6 +29,11 @@
 
 .menu-anchor {
   color: #ff007e;
+}
+
+ul.menu {
+  margin: 0;
+  padding: 0;
 }
 
 ul.menu > li a {
@@ -45,17 +50,15 @@ footer {
 footer > p {
   font-size: 12px;
   font-weight: 700px;
+  padding: 0;
+  margin: 0;
+  line-height: 1.6em;
 }
 
-footer > p .socials  {
-  display: flex;
-  justify-content: space-between;
-}
-
-@media screen and (max-width: 30em) {
+@media screen and (max-width: 64em) {
   .header {
     flex-direction: column;
-    padding-bottom: 0px;
+    padding-bottom: 50px;
   }
 
   ul.menu {
@@ -65,11 +68,5 @@ footer > p .socials  {
   footer {
     padding-top: 10px;
     flex-direction: column;
-  }
-
-  footer > p {
-    padding: 0;
-    margin: 0;
-    line-height: 1.6em;
   }
 }

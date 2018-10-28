@@ -21,9 +21,6 @@ class Template extends React.Component {
       <div className={cx('container')}>
         <header className={cx('header')}>
           <div>
-            <Link to="/">
-              <div className={cx('ufp')}>Unicorns Fart Pixels</div>
-            </Link>
             <Bio />
           </div>
           <ul className={cx('menu')}>
@@ -37,7 +34,6 @@ class Template extends React.Component {
         <div className={cx('main')}>{children}</div>
 
         <footer>
-          <p>© 2018 Unicorns Fart Pixels</p>
           <p>
             This site is built with{' '}
             <a href="https://www.gatsbyjs.org/" target="_blank">
@@ -51,21 +47,9 @@ class Template extends React.Component {
             <a href="https://github.com/elizasj/unicorns2018" target="_blank">
               Github
             </a>
+            .
           </p>
-          <p className={cx('socials')}>
-            →
-            <a href="https://ello.co/elizasj" target="_blank">
-              ello
-            </a>
-            →
-            <a href="https://twitter.com/iamelizasj" target="_blank">
-              twitter
-            </a>
-            →
-            <a href="https://www.instagram.com/iamelizasj/" target="_blank">
-              instagram
-            </a>{' '}
-          </p>
+          <p>© 2018 Unicorns Fart Pixels</p>
         </footer>
       </div>
     )
