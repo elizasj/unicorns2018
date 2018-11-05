@@ -11,6 +11,7 @@ root {
   /* colors */
   --PRIMARY: #ff008c;
   --SECONDARY: #233dff;
+  --TERTIARY: #13d407;
 
   /* font size */
   --H1: 5.4rem; /* 10px -> 5.4rem = 54px */
@@ -66,7 +67,7 @@ p {
   font-weight: 300;
   color: #333;
   line-height: 2rem;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 a,
@@ -93,6 +94,7 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding: 20px 0px 20px 0px;
 }
 
 canvas {
@@ -127,7 +129,7 @@ blockquote p {
 
 hr {
   border: 0;
-  border-bottom: 3px dashed #ffe900;
+  border-bottom: 2px dashed #13d407;
 }
 
 @media screen and (max-width: 64em) {

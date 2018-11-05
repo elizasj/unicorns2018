@@ -5,15 +5,12 @@
   padding-bottom: 35px;
 }
 
-.blogpost_title {
-  margin-bottom: 0px;
-}
-
 .blogpost_title_anchor {
-  font-size: 27px;
-  font-size: 26px;
-  font-weight: 600;
   color: #233dff;
+  text-transform: none;
+  font-size: 1.2em;
+  line-height: 20px;
+  margin-bottom: 20px;
 }
 
 .blogpost_content {

@@ -16,6 +16,7 @@ ul.backforth {
   display: flex;
   justify-content: space-around;
   list-style: none;
+  padding: 20px 0px;
 }
 
 @media screen and (max-width: 30em) {
