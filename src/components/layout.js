@@ -25,7 +25,6 @@ class Template extends React.Component {
           </div>
           <ul className={cx('menu')}>
             <ListLink to="/webdev101/">Web Dev 101</ListLink>
-            <ListLink to="/podcast/">Podcast</ListLink>
             <ListLink to="/about/">About</ListLink>
             <ListLink to="/contact/">Contact</ListLink>
           </ul>
